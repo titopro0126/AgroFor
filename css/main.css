@@ -1,0 +1,242 @@
+@font-face{
+    font-family: "Creamy butter";
+    src: url("creamy butter.ttf");
+}
+
+@font-face{
+    font-family: "BRLNSR";
+    src: url("../fonts/BRLNSR.TTF");
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item:hover{
+  background-color: transparent;
+}
+
+.img-responsive
+{
+  margin-left: 15px;
+  width: 10%;
+}
+
+.alternateBoxLg{
+  position: absolute;
+  top: 85px;
+  left: -125px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.alternateBoxLg:hover{
+  transition-property: left;
+  transition-duration: .8s;
+  left: 0;
+}
+
+.alternateBoxSm{
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 5px;
+  z-index: 80;
+}
+
+.alternateButton i:first-child{
+  font-size: 2rem;
+}
+
+.labelAlternate{
+  width: 130px;
+}
+
+.text-litle{
+  font-size: smaller;
+}
+
+.bginfo{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 248);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pf-bannerimglarge{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+  top: 73px;
+  margin-bottom: 108px;
+}
+
+.pf-bannerimgsmall{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+  top: 68px;
+  margin-bottom: 90px;
+}
+
+.pfh1{
+  font-family: "BRLNSR";
+  font-size: 4em;
+}
+
+.pfh3{
+  font-family: "BRLNSR";
+}
+
+.perz{
+  font-family: "BRLNSR";
+}
+
+.bgmain{
+  background-color: rgba(17, 16, 17, 0.842);
+}
+
+.bgmodalgame{
+  background-color: rgba(219, 219, 219, 0.89);
+}
+
+.navbar-lighter{
+  background-color: rgba(250, 250, 250, 0.801);
+}
+
+.navbar-lighter a{
+  color: rgb(251, 248, 248);
+}
+
+.dropdown-submenu{
+  position: relative;
+}
+
+.dropdown-submenu a::after{
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu{
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.infogame{
+  text-align: center;
+  padding: 1px;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(149, 44, 236);
+  color: rgb(39, 39, 39);
+}
+
+.infogame a{
+  text-decoration: none;
+  color: rgb(255, 214, 80);
+}
+
+.text-link{
+  color: rgb(187, 155, 10);
+}
+
+.text-link:hover{
+  color: rgb(223, 172, 4);
+}
+
+.infogame a:hover{
+  text-decoration: none;
+  color: rgb(223, 174, 12);
+}
+
+ 
+.bg-orange{
+  background-color: rgb(236, 112, 62);
+ }
+
+ .bg-leve{
+   background-color: rgb(204, 185, 10);
+ }
+
+ .bg-grave{
+   background-color: rgb(190, 0, 0);
+ }
+ 
+ .tblanco{
+   color: rgb(226, 226, 226)
+ }
+
+ .font-small{
+   font-size: small;
+ }
+ .color_white th,.color_white td{
+  color: #fbfbfb !important;
+  }
+
+.color_de_fondo{
+  background-color: #1a5ef9db;
+  }
+
+  .img_erick{
+   height: 50px;
+    width: 120px;
+    position: relative;
+    left: 50px;
+ }
+ .nav-link{
+   background-color: #0e0e0e29 !important;
+    margin-right: 5px;
+    border-radius: 10px;
+ }
+
+@keyframes myfirst {
+    0% {
+        color: #f8f303;
+    }
+    20% {
+        color: #5e9de6;
+    }
+    30% {
+        color: #03f8f8;
+    }
+    40% {
+        color: #ff0707;
+    }
+    50% {
+        color: #69fb07;
+    }
+    60% {
+        color: #fb8907;
+    }
+    70% {
+        color: #fb07ca;
+    }
+    80% {
+        color: #1707fb;
+    }
+    90% {
+        color: #07fb95;
+    }
+    100% {
+        color: #f8f303;
+    }
+}
+
+.admin_com_sup {
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #FFF813, 0px 0px 2px #EC28A7, 0px 0px 4px #06E291, 0px 0px 4px #0CEA6F, 0px 0px 3px #D80000;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-position: left center;
+    -webkit-animation: myfirst 5s linear infinite;
+    animation: myfirst 5s linear infinite;
+}
